@@ -53,3 +53,4 @@ git-crypt unlock
 
 echo "Repository decrypted successfully!"
 cd -
+cat main.tf
