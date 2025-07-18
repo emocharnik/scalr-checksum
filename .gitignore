@@ -15,4 +15,4 @@ checksum_config.json
 terraform.tfvars.json
 .scalr.terraform.rc
 scalr_override.tf.json
-.terraform
+**/.terraform
