@@ -1,6 +1,8 @@
 #!/bin/bash
 set -e
 
+cd ../
+
 # Validate required environment variables
 if [ -z "$GPG_PASSPHRASE" ]; then
     echo "Error: GPG_PASSPHRASE environment variable is required"
@@ -50,3 +52,5 @@ echo "Unlocking git-crypt repository..."
 git-crypt unlock
 
 echo "Repository decrypted successfully!"
+cd encrypted
+ls -la
