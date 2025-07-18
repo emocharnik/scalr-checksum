@@ -1,0 +1,18 @@
+# Signature validation files
+private_key.pem
+gpg_private.key
+public_key.pem
+checksum_config.json
+*.tmp
+*.log
+.DS_Store
+
+# Docker
+.dockerignore
+.idea
+.scalr-internal-artifacts
+.terraform.lock.hcl
+terraform.tfvars.json
+.scalr.terraform.rc
+scalr_override.tf.json
+.terraform
