@@ -52,5 +52,3 @@ echo "Unlocking git-crypt repository..."
 git-crypt unlock
 
 echo "Repository decrypted successfully!"
-cd encrypted
-ls -la
